@@ -67,3 +67,21 @@ header .sub-menu ul.menu li a {
 header .sub-menu ul.menu li a:hover {
 	color: #000;
 }
+
+header .sub-menu .search {
+	background-color: red;
+}
+
+header .sub-menu .search input{
+	width: 36px;
+	heigth: 34px;
+	padding: 4px 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 5px;
+	outline: none;
+	background-color: #fff;
+	color: #777;
+	transition: width .4s;
+}
+
